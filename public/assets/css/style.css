@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width:1000px) {
+    
+}
+@media (max-width:999.99px) {
+    
+}
+@media (max-width:760px) {
+    
+}
+@media (max-width:560px) {
+    
+}
+/* ***** CORPS ***** */
+#corps{
+    width: 1000px;
+    margin: auto;
+    background-color: lightgrey;
+    box-shadow: 4px 8px rgba(0, 0, 0, 0.2);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* ***** HEADER ***** */
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* H_LEFT */
+#h_left{
+    display: flex;
+}
+#logo{
+    padding: 10px;
+}
+#titre{
+    margin-left: 10px;
+}
+#titre > p {
+    color: rgb(255, 48, 231);
+    font-size: 0.8em;
+}
+/* H_CENTER */
+#h_center{}
+#h_center > p{
+    color: aqua;
+    font-size: 20px;
+    padding: 5px;
+}
+#aide{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border-radius: 10px;
+
+}
+#aide > p {
+    background-color: white;
+    color: aqua;
+    border: 1px solid aqua;
+    padding: 3px;
+    border-radius: 10px;
+}
+#aide > i {
+    padding: 5px;
+}
+/* H_RIGHT */
+#h_right{}
+#h_right > div {
+    background-color: skyblue;
+    color: white;
+    margin-bottom: 5px;
+}
+#h_right > div > p{
+    text-align: center;
+}
+#h_right > div:first-child{
+    margin-bottom: 2px;
+}
+#checkout{
+    display: flex;
+    align-items: center;
+}
+
+/* ***** NAV ***** */
+
+nav{
+    
+}
+ul{
+    display: flex;
+    background-color: aqua;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+li:hover{
+    background-color: pink;
+}
+
+/* ***** MAIN ***** */
+
+/* CENTER */
+#m_center{
+    display: flex;
+    justify-content: space-between
+}
+/* BOTTOM */
+#m_bottom{
+    display: flex;
+}
+/* ***** FOOTER ***** */
+footer{
+    background-color: aqua;
+}
+#ul_footer{
+    width: 70%;
+    margin: auto;
+}
+#ul_footer > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.3em;
+    margin: 0;
+    padding: 5px;
+    /* margin-right: 10px; */
+}
+#ul_footer > li > a{
+    text-align: center;
+}
